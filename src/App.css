@@ -1,9 +1,14 @@
-.header {
-  text-align: center;
-  text-transform: uppercase;
+.header-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
   background-color: antiquewhite;
-  margin: 0;
   height: 75px;
+}
+
+.header {
+  text-transform: uppercase;
+  margin: 0;
 }
 
 .showcase-container {
@@ -12,10 +17,41 @@
   align-items: center;
   font-size: 2.5em;
   height: 300px;
-  background-color: red;
   margin: 0;
+  background: url(https://images.unsplash.com/photo-1586769852836-bc069f19e1b6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .showcase-title {
   margin: 0;
+  color: white;
+}
+
+ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+  margin: 0;
+}
+
+ul li {
+  margin: 10px;
+}
+
+ul li:hover {
+  color: red;
+}
+
+.btn {
+  border: none;
+  border-radius: 5px;
+  padding: 5px;
+  background-color: antiquewhite;
+}
+
+.btn:hover {
+  background-color: red;
 }
